@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="shortcut icon" href="images/h.png">
+    <link rel="stylesheet" type="text/css" href="Styles/shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <!-------navigation------->
+     <nav>
+        <!----social-link-and-phone-number---->
+        <div class="social-call">
+            <!--social-links-->
+            <div class="social">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-envelope"></i>
+            </div>
+            <!--phone-number-->
+            <div class="phone">
+                <span>Call +234 807 426 8212</span>
+            </div>
+        </div>
+        <!--menu-bar-->
+        <div class="navigation">
+            <!--logo----->
+            <a href="index.html" class="logo">
+                <img src="images/h.png">
+            </a>
+            <!--menu-->
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="check.html">Cart</a></li>
+            </ul>
+            <!--right menu---->
+            <div class="right-menu">
+                <!--search-->
+               <a href="#" class="search">
+                <i class="fa fa-search"></i>
+               </a> 
+               <!--user-->
+               <a href="#" class="user">
+                <i class="fa fa-user"></i>
+               </a>
+               <!--cart-icon-->
+               <a href="check.html">
+                <i class="fa fa-shopping-cart">
+                <!--number of product in cart---->
+                <span class="num-cart-product">0</span>
+                </i>
+               </a>
+            </div>
+        </div>
+    </nav>
+    <!--search-bar-------->
+    <div class="search-bar">
+        <!--search input------>
+        <div class="search-input">
+            <!--input-->
+            <input type="text" placeholder="Search For Product"/>
+            <!--cancel btn-->
+            <a href="#" class="search-cancel">
+                <i class="fa fa-times"></i>
+            </a>
+        </div>
+    </div>
+
+    <!--login and signup forms---------->
+    <div class="form">
+        <!--login-------->
+        <div class="login-form">
+            <a href="#" class="form-cancel">
+                <i class="fa fa-times"></i>
+            </a>
+            <strong>Log In</strong>
+            <form>
+                <input type="email" placeholder="Example@gmail.com" name="Email" required>
+                <input type="password" placeholder="password" name="Password" required>
+                <input type="submit" value="Log In">
+            </form>
+            <div class="form-btn">
+                <a href="#" class="forget">Forget Your Password?</a>
+                <a href="#" class="sign-up-btn">Create Account</a>
+            </div>
+        </div>
+
+
+
+
+        <!--Sign-up-------->
+        <div class="sign-up-form">
+            <a href="#" class="form-cancel">
+                <i class="fa fa-times"></i>
+            </a>
+            <strong>Sign Up</strong>
+            <form>
+                <input type="text" placeholder="Full Name" name="fullname" required>
+                <input type="email" placeholder="Example@gmail.com" name="Email" required>
+                <input type="password" placeholder="password" name="Password" required>
+                <input type="submit" value="Sign Up">
+            </form>
+            <div class="form-btn">
+                <a href="#" class="already">Already Have Account?</a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+   
+    <!-----our-products--------------->
+    <section class="our-product">
+        <div class="our-product-heading">
+            
+            <strong>Our Products</strong>
+            <p>----We Provide You with Quality Products at affordable prices----</p>
+            
+        </div>
+
+        <!--product-container------------>
+        <div class="product-container">
+            <div class="product-box">                 
+               <div class="product-img">        
+                    <img src="Images/quinoa.jpg" />                    
+               </div>
+               <div class="product-details">
+                    <a href="#" class="p-name">Quinoa</a>
+                    <span class="p-price">$ 28</span>
+                    <div class="qty">
+                        <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                    </div>
+                    <button class="addtocart">Add To Cart</button>
+               </div>
+            </div>
+
+            <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/Quadrettini-1.jpg" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Quadrettini</a>
+                     <span class="p-price">$ 30</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/queens fish.jpg" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Queens Fish</a>
+                     <span class="p-price">$ 70</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/quark.jfif" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Quark</a>
+                     <span class="p-price">$ 10</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/quinine water.jpg" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Quinine Water</a>
+                     <span class="p-price">$ 28</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/quahog clams.jfif" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Quahog Clams</a>
+                     <span class="p-price">$ 30</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/quarabiya.jfif" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Quarabiya</a>
+                     <span class="p-price">$ 40</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/Queen vinyl soda.jfif" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Quinoa</a>
+                     <span class="p-price">$ 3.80</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/Queijadinhas.jfif" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Queijadinhas</a>
+                     <span class="p-price">$ 30</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/qualat dagga seasoning blend.jfif" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Qualat Seasoning</a>
+                     <span class="p-price">$ 22</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/quaterdeck seafood.jfif" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Quaterdeck Seafood</a>
+                     <span class="p-price">$ 78</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/quatre epices.jfif" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Quatre Epices</a>
+                     <span class="p-price">$ 50</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/queso frenso.jfif" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Queso Frenso</a>
+                     <span class="p-price">$ 30</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/quetschentaart.jfif" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Quetschentaart</a>
+                     <span class="p-price">$ 28</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/quenelle.jfif" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Quenelle</a>
+                     <span class="p-price">$ 29.40</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+
+             <div class="product-box">                 
+                <div class="product-img">        
+                     <img src="Images/quisp quaker oat.jfif" />                    
+                </div>
+                <div class="product-details">
+                     <a href="#" class="p-name">Quisp Quaker Oat</a>
+                     <span class="p-price">$ 40</span>
+                     <div class="qty">
+                         <button class="reduce-qty">-</button><input class="qty" value="0" type="number"><button class="increase-qty">+</button>
+                     </div>
+                     <button class="addtocart">Add To Cart</button>
+                </div>
+             </div>
+        
+
+
+
+
+
+
+
+
+
+    <!--footer----------------------->
+    <footer>
+        <!--copyright---->
+        <span class="copyright">
+            Copyright 2022 - Alabi Oshomoshiofu(19CJ025772)
+        </span>
+        <!--subscribe------>
+        <div class="subscribe">
+            <form>
+                <input type="email" placeholder="Example@gmail.com" required>
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </footer>
+
+
+     <!--jQwery----->
+     <script src="Scripts/jquery.min.js"></script>
+     <script type="text/javascript">
+         /**----for search bar*******/
+         $(document).on('click','.search', function(){
+             $('.search-bar').addClass('search-bar-active')
+         });
+
+         $(document).on('click','.search-cancel', function(){
+             $('.search-bar').removeClass('search-bar-active')
+         });
+
+
+         /**----login-sign-up-form*******/
+          $(document).on('click','.user', function(){
+             $(".form").addClass("login-active")
+             $('.login-form').addClass('login-form-active')
+         });
+
+         $(document).on('click','.form-cancel', function(){
+             $('.form').removeClass('login-active')
+             $('.login-form').removeClass('login-form-active')
+             $('.sign-up-form').removeClass('login-form-active')
+         });
+
+         $(document).on("click", ".sign-up-btn", function(){
+             $('.sign-up-form').addClass('login-form-active')
+             $('.login-form').removeClass('login-form-active')
+         });
+
+         $(document).on("click", ".already", function(){
+             $('.sign-up-form').removeClass('login-form-active')
+             $('.login-form').addClass('login-form-active')
+         });
+         
+
+     </script>
+     <script src="Scripts/shop.js"></script>
+    
+</body>
+</html>
